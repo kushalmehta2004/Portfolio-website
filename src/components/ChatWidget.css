@@ -1,0 +1,265 @@
+/* ChatWidget.css - Styling for the collapsible chatbot */
+/* Place this in: Portfolio/src/components/ChatWidget.css */
+
+/* ============================================================
+   CHAT BUTTON - The floating button in bottom-right corner
+   ============================================================ */
+
+.chat-button {
+  /* Position */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  
+  /* Size */
+  width: 60px;
+  height: 60px;
+  
+  /* Styling */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  
+  /* Center the icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Shadow for depth */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  
+  /* Smooth animations */
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.chat-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Active/click effect */
+.chat-button:active {
+  transform: scale(0.95);
+}
+
+/* Hide button when chat is open */
+.chat-button.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0);
+}
+
+/* ============================================================
+   CHAT WINDOW - The expanded chatbot interface
+   ============================================================ */
+
+.chat-window {
+  /* Position */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  
+  /* Size */
+  width: 380px;
+  height: 600px;
+  
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  
+  /* Styling */
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  
+  /* Animation */
+  animation: slideUp 0.3s ease-out;
+}
+
+/* Slide-up animation when opening */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================================
+   CHAT HEADER - Top bar with title and close button
+   ============================================================ */
+
+.chat-header {
+  /* Layout */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  /* Spacing */
+  padding: 16px 20px;
+  
+  /* Styling */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  
+  /* Shadow */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Online status indicator (green dot) */
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  background: #4ade80;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.chat-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chat-header p {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* Close button in header */
+.close-button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.close-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ============================================================
+   CHAT BODY - The iframe containing your chatbot
+   ============================================================ */
+
+.chat-body {
+  /* Take remaining space */
+  flex: 1;
+  
+  /* Remove default spacing */
+  padding: 0;
+  margin: 0;
+  
+  /* Ensure iframe fills space */
+  position: relative;
+  overflow: hidden;
+}
+
+.chat-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* ============================================================
+   CHAT FOOTER - Optional powered by message
+   ============================================================ */
+
+.chat-footer {
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* ============================================================
+   RESPONSIVE DESIGN - Mobile adjustments
+   ============================================================ */
+
+/* Tablets and smaller */
+@media (max-width: 768px) {
+  .chat-window {
+    width: calc(100vw - 40px);
+    height: 500px;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .chat-button {
+    bottom: 15px;
+    right: 15px;
+    width: 56px;
+    height: 56px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .chat-window {
+    /* Full screen on small phones */
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+  }
+  
+  .chat-button {
+    bottom: 12px;
+    right: 12px;
+  }
+}
+
+/* ============================================================
+   ACCESSIBILITY - Ensure good focus states
+   ============================================================ */
+
+.chat-button:focus,
+.close-button:focus {
+  outline: 3px solid #667eea;
+  outline-offset: 2px;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .chat-button,
+  .chat-window,
+  .status-indicator {
+    animation: none;
+    transition: none;
+  }
+}
