@@ -13,7 +13,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/kushalmehta2004",
   resume:
-    "https://drive.google.com/file/d/153Qm-jDeoOacRGlZa1phpPACaB_KIwvr/view?usp=drive_link",
+    "https://drive.google.com/file/d/1704i2x6lDaPmFA40z__jaL5nxfPGZlyB/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kushal-mehta-02a0a4251/",
   insta: "https://www.instagram.com/_kushal_mehta004/",
 };
