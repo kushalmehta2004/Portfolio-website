@@ -258,7 +258,8 @@ export const showcaseProjects = [
   "pawnsposes",
   "AI-Portfolio-Agent",
   "ConversationalAI",
-  "Arthur-Street-Web"
+  "Arthur-Street-Web",
+  "UpiSense"
 ];
 
 export const projects = [
