@@ -344,13 +344,13 @@ export const projects = [
   },
   {
     id: 16,
-    title: "PawnsPoses Chess Coaching",
+    title: "UpiSense",
     isFreelance: true,
-    description: "A modern, responsive chess coaching website built with React for PawnsPoses academy. Features EmailJS integration for direct form submissions to Gmail, a student achievement gallery, and WhatsApp booking integration.",
+    description: "Your UPI money,finally explained.Forward one notification. Know exactly where your money went. No app install. No bank login. No manual entry. Ever.",
     image: "",
     tags: ["React", "Tailwind CSS", "Framer Motion", "EmailJS"],
     category: "web app",
-    github: "https://github.com/ShubrajSalgotra/pawnsposes",
+    github: "https://github.com/kushalmehta2004/UpiSense",
   },
 ];
 
