@@ -313,18 +313,6 @@ export const projects = [
     github: "https://github.com/kushalmehta2004/ATM",
   },
   {
-    id: 12,
-    title: "PawnsPoses Chess Coaching",
-    isFreelance: true,
-    description:
-      "A modern, responsive chess coaching website built with React for PawnsPoses academy. Features EmailJS integration for direct form submissions to Gmail, a student achievement gallery, and WhatsApp booking integration.",
-    image:
-      "https://pawnsposes.com/logo.png", // Fallback if no specific image
-    tags: ["React", "Tailwind CSS", "Framer Motion", "EmailJS"],
-    category: "web app",
-    github: "https://github.com/kushalmehta2004/pawnsposes",
-  },
-  {
     id: 13,
     title: "AI Portfolio Agent",
     description:
@@ -351,6 +339,16 @@ export const projects = [
     description: "A premium dining experience website featuring a modern UI, parallax hero section with video background, and interactive reservation system.",
     image: "",
     tags: ["HTML", "CSS", "JavaScript", "Parallax"],
+    category: "web app",
+    github: "https://github.com/kushalmehta2004/Arthur-Street-Web",
+  },
+  {
+    id: 16,
+    title: "PawnsPoses Chess Coaching",
+    isFreelance: true,
+    description: "A modern, responsive chess coaching website built with React for PawnsPoses academy. Features EmailJS integration for direct form submissions to Gmail, a student achievement gallery, and WhatsApp booking integration.",
+    image: "",
+    tags: ["React", "Tailwind CSS", "Framer Motion", "EmailJS"],
     category: "web app",
     github: "https://github.com/kushalmehta2004/Arthur-Street-Web",
   },
