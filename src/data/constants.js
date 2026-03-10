@@ -350,7 +350,7 @@ export const projects = [
     image: "",
     tags: ["React", "Tailwind CSS", "Framer Motion", "EmailJS"],
     category: "web app",
-    github: "https://github.com/kushalmehta2004/Arthur-Street-Web",
+    github: "https://github.com/ShubrajSalgotra/pawnsposes",
   },
 ];
 
