@@ -253,7 +253,6 @@ export const education = [
 
 export const showcaseProjects = [
   "ATM",
-  "pawnsposes",
   "AI-Portfolio-Agent",
   "ConversationalAI",
   "Arthur-Street-Web",
@@ -262,45 +261,6 @@ export const showcaseProjects = [
 ];
 
 export const projects = [
-  {
-    id: 11,
-    title: "Indian Stock Trader",
-    description:
-      "A full-stack application for trading in the Indian stock market (NSE/BSE) with real-time data, AI-powered trading signals, and automated trading capabilities. Built with React, Flask, Socket.IO, SQLAlchemy, and machine learning models.",
-    image:
-      "https://t4.ftcdn.net/jpg/02/74/89/87/360_F_274898790_jFbZaYzodY0byzMZ06Ka1zp6kG5sVZc5.jpg",
-    tags: [
-      "HTML",
-      "CSS",
-      "React.js",
-      "Tailwind CSS",
-      "Socket.IO",
-      "Flask",
-      "SQLAlchemy",
-      "Machine Learning"
-    ],
-    category: "ml app",
-    github: "https://github.com/kushalmehta2004/indian-stock-trader",
-  },
-  {
-    id: 5,
-    title: "Disease Prediction",
-    description:
-      "A disease prediction system using machine learning models to predict diseases based on symptoms. The system utilizes three different classifiers: Support Vector Machine (SVM), Gaussian Naive Bayes, and Random Forest, combined using an ensemble method to improve prediction accuracy.",
-    image:
-      "https://www.news-medical.net/images/news/ImageForNews_776422_17123165547518811.jpg",
-    tags: [
-      "Numpy",
-      "Pandas",
-      "Scikit-learn",
-      "Matplotlib",
-      "Seaborn",
-      "Scipy",
-      "Machine Learning"
-    ],
-    category: "ml app",
-    github: "https://github.com/kushalmehta2004/DiseasePrediction",
-  },
   {
     id: 4,
     title: "ATM Management System",
