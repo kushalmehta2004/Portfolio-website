@@ -259,7 +259,8 @@ export const showcaseProjects = [
   "AI-Portfolio-Agent",
   "ConversationalAI",
   "Arthur-Street-Web",
-  "UpiSense"
+  "UpiSense",
+  "AI Data Analyst Agent"
 ];
 
 export const projects = [
@@ -352,6 +353,15 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer Motion", "EmailJS"],
     category: "web app",
     github: "https://github.com/kushalmehta2004/UpiSense",
+  },
+  {
+    id: 17,
+    title: "AI Data Analyst Agent",
+    description: "Conversational AI data analyst that lets you upload structured datasets and ask questions in plain English.",
+    image: "",
+    tags: ["Python", "Streamlit", "Custom ReAct loop", "OpenAI GPT-4o", "Anthropic Claude Sonnet", "Pydantic v2", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly", "E2B sandbox"],
+    category: "web app",
+    github: "https://github.com/kushalmehta2004/ai-data-analyst-agent",
   },
 ];
 
