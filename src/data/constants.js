@@ -354,7 +354,7 @@ export const projects = [
   },
   {
     id: 17,
-    title: "ai-data-analyst-agent",
+    title: "AI Data Analyst Agent",
     description: "Conversational AI data analyst that lets you upload structured datasets and ask questions in plain English.",
     image: "",
     tags: ["Python", "Streamlit", "Custom ReAct loop", "OpenAI GPT-4o", "Anthropic Claude Sonnet", "Pydantic v2", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly", "E2B sandbox"],
