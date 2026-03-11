@@ -252,8 +252,6 @@ export const education = [
 ];
 
 export const showcaseProjects = [
-  "indian-stock-trader",
-  "DiseasePrediction",
   "ATM",
   "pawnsposes",
   "AI-Portfolio-Agent",
