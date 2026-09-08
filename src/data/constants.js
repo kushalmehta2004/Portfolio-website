@@ -14,7 +14,7 @@ export const Bio = {
   github: "https://github.com/kushalmehta2004",
   resume:
     "https://drive.google.com/file/d/16CbVYtN0NJgtC-l07hhkT4_juJ_ZzQwd/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/kushal-mehta-02a0a4251/",
+  linkedin: "https://www.linkedin.com/in/kushalmehta2004/",
   insta: "https://www.instagram.com/_kushal_mehta004/",
 };
 
@@ -224,15 +224,23 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/commons/9/9e/DJSCE_Logo.png",
-    school: "Dwarkadas J. Sanghvi College Of Engineering",
-    date: "Oct 2022 - Present",
-    grade: "8.3",
-    desc: "Currently pursuing a Bachelor of Technology in Information Technology, focusing on developing a strong technical foundation and specialized engineering skills.\n\nHonors: DevOps & MLOps",
-    degree: "Bachelor of Technology - BTech, Information Technology",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKi_BdHyYAiBO2quqOLGaMarndBcwm454syKxBkeJx9uVQbzPp-JsmRU96&s=10",
+    school: "University of Southern California",
+    date: "August 2026 - Present",
+    desc: "Currently pursuing a Master of Science in Computer Science, focusing on building depth in systems and applied AI, with coursework in Analysis of Algorithms and Information Retrieval.",
+    degree: "Masters of Science in Computer Science",
   },
   {
     id: 1,
+    img: "https://upload.wikimedia.org/wikipedia/commons/9/9e/DJSCE_Logo.png",
+    school: "Dwarkadas J. Sanghvi College Of Engineering",
+    date: "Oct 2022 - May-2026",
+    grade: "8.3",
+    desc: "Bachelor of Technology in Information Technology, focusing on developing a strong technical foundation and specialized engineering skills.\n\nHonors: DevOps & MLOps",
+    degree: "Bachelor of Technology - BTech, Information Technology",
+  },
+  {
+    id: 2,
     img: "https://ugc.production.linktr.ee/RT0UegX6QJ6UfnlABFSI_ZgQzyeT1Rb8j7cg1?io=true&size=avatar-v3_0",
     school: "St. Wilfred's School Of Science and Commerce",
     date: "Apr 2021 - Apr 2022",
@@ -241,7 +249,7 @@ export const education = [
     degree: "ISC(XII)",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_SreAFFENEuKwPa4Robw_T_fcKzb_08Agg&s",
     school: "Anchorwala Education Academy",
     date: "Apr 2019 - Apr 2020",
